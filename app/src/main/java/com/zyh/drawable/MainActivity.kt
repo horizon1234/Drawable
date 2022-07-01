@@ -32,5 +32,8 @@ class MainActivity : AppCompatActivity() {
         findViewById<Button>(R.id.clipDrawable).setOnClickListener {
             startActivity(Intent(this, ClipDrawableActivity::class.java))
         }
+        findViewById<Button>(R.id.customDrawable).setOnClickListener {
+            startActivity(Intent(this, CustomDrawableActivity::class.java))
+        }
     }
 }
